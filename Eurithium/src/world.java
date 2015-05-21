@@ -1,6 +1,12 @@
 public class world {
 	char[][] fieldView = new char[38][24];
 	
+	surface[][] fieldFloor = new surface[38][24];
+	
+	rock[][] fieldRocks = new rock[38][24];
+	
+	factory[][] fieldFactories = new factory[38][24];
+	
 	public world() {
 		for (int row = 0; row < 38; row ++)
 			for (int col = 0; col < 24; col++)
@@ -22,6 +28,7 @@ public class world {
 	
 	public void generateMap()
 	{
+		
 		//Do things here.
 	}
 	

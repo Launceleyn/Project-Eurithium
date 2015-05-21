@@ -40,7 +40,7 @@ public class gameData {
 		//Add all the elements here.
 		surfaceType Sand = new surfaceType(500, "Sand");
 		surfaceType Pebbles = new surfaceType(200, "Pebbles");
-		surfaceType Rock = new surfaceType(25, "Rock");
+		surfaceType Rock = new surfaceType(2, "Rock");
 		
 		
 		//Also make sure to add them to the list.
