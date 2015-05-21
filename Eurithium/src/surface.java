@@ -12,12 +12,14 @@ public class surface{
 	
 	private final solid surfaceElmt;
 	private final surfaceType composition;//The composition of the surface. Has to do with gathering.
+	private char visual;
 	
 	//Constructor for a surface.
-	public surface(solid surfaceSolid, surfaceType surfaceComposition) {
+	public surface(solid surfaceSolid, surfaceType surfaceComposition, char surfaceVisual) {
 		//int colorValue //For coloring of the ground.
 		surfaceElmt = surfaceSolid;
 		composition = surfaceComposition;
+		visual = surfaceVisual;
 	}
 	
 	//Returns the type of solid that a surface is made from.
@@ -29,4 +31,9 @@ public class surface{
 	public surfaceType getComp() {
 		return composition;
 	}	
+	
+	public char getVis()
+	{
+		return visual;
+	}
 }

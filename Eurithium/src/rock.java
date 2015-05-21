@@ -13,11 +13,13 @@
 public class rock {
 	private solid rockElmt;
 	private int volume;
+	private char visual;
 
-	public rock(solid rockElement, int rockVolume) {
+	public rock(solid rockElement, int rockVolume, char rockVis) {
 		// TODO Auto-generated constructor stub
 		rockElmt = rockElement;
 		volume = rockVolume;
+		visual = rockVis;
 	}
 
 	//Returns the weight of a rock.
@@ -33,6 +35,10 @@ public class rock {
 		return volume;
 	}
 	
+	public char getVis()
+	{
+		return visual;
+	}
 	
 	/*
 	 * We may need this function for returning "stat" objects
