@@ -1,12 +1,6 @@
 /*Odell Dotson - 2015
  * 
- * Rock objects can be broken down into pieces that can then be harvested, or something.
- * I don't know. Ask Richard.
- * 
- * Rock objects are of a specific solid type, but are also of a specific volume. The weight of the rock is then calculated based on the solid's weight and the rock volume.
- * 
- * Maybe the rover has a limit both in terms of weight and volume?
- * Ask Richard.
+ * !! DEPRICIATED CLASS
  * 
  * 
  */
